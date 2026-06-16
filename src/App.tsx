@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
+import { Services } from "@/components/Services";
 import { About } from "@/components/About";
 import { Projects } from "@/components/Projects";
 import { Experience } from "@/components/Experience";
@@ -13,9 +14,10 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <Services />
         <About />
-        <Projects />
         <Experience />
+        <Projects />
         <Education />
         <Contact />
       </main>
