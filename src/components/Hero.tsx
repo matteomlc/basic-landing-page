@@ -7,21 +7,21 @@ export function Hero() {
       <div className="container mx-auto max-w-6xl px-4">
         <div className="mx-auto max-w-3xl text-center">
           <p className="mb-4 text-sm font-medium uppercase tracking-widest text-muted-foreground">
-            Benvenuto nel mio portfolio
+            Matteo Mullace — Software Engineer
           </p>
           <h1 className="text-5xl font-bold tracking-tight md:text-6xl lg:text-7xl">
-            Mario Rossi
+            Costruisco web app e agenti AI in produzione.
           </h1>
           <p className="mt-6 text-xl leading-relaxed text-muted-foreground md:text-2xl">
-            Sviluppatore &amp; Designer con passione per creare esperienze
-            digitali che fanno la differenza.
+            Dal sito vetrina al backend bancario, dagli agenti conversazionali
+            ai plugin con LLM. Java, Spring, React e Spring AI / RAG.
           </p>
           <div className="mt-10 flex items-center justify-center gap-4">
             <a href="#contact">
-              <Button size="lg">Contattami</Button>
+              <Button size="lg">Lavoriamo insieme</Button>
             </a>
-            <a href="#about">
-              <Button size="lg" variant="outline">Scopri di più</Button>
+            <a href="#services">
+              <Button size="lg" variant="outline">Cosa faccio</Button>
             </a>
           </div>
         </div>

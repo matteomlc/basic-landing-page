@@ -3,10 +3,10 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
+  { label: "Servizi", href: "#services" },
   { label: "Chi sono", href: "#about" },
+  { label: "Esperienza", href: "#experience" },
   { label: "Progetti", href: "#projects" },
-  { label: "Esperienze", href: "#experience" },
-  { label: "Studi", href: "#education" },
   { label: "Contatti", href: "#contact" },
 ];
 
@@ -17,7 +17,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
         <a href="#" className="font-heading text-xl font-bold tracking-tight">
-          Portfolio
+          Matteo Mullace
         </a>
 
         {/* Desktop nav */}
