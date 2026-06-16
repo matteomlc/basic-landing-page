@@ -5,28 +5,44 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    role: "Senior Developer",
-    company: "Azienda Tech",
-    period: "2022 – Presente",
+    role: "AI Engineer — Banca MPS",
+    company: "IRISCUBE Reply",
+    period: "Da luglio 2026",
     description:
-      "Guido il team di sviluppo frontend nella creazione di applicazioni web enterprise. Responsabile dell'architettura tecnica e delle code review.",
-    tags: ["React", "TypeScript", "Node.js"],
+      "Lavoro al 100% con l'IA per Banca Monte dei Paschi di Siena. Sviluppo di un plugin per il porting di un framework interno della banca su una nuova architettura basata su LLM.",
+    tags: ["AI", "LLM", "Plugin", "Banking"],
   },
   {
-    role: "Full-Stack Developer",
-    company: "Startup Innovativa",
-    period: "2019 – 2022",
+    role: "Java Software Engineer — Intesa Sanpaolo",
+    company: "IRISCUBE Reply",
+    period: "Gennaio 2026 – Giugno 2026",
     description:
-      "Sviluppo end-to-end di prodotti digitali, dalla progettazione del database alla UI. Gestione di progetti agile e collaborazione con team di design.",
-    tags: ["Vue.js", "Python", "PostgreSQL"],
+      "Progetto sul rilascio di linee di credito: analisi delle user story e sviluppo backend in Java/Spring, integrazione con PostgreSQL e gestione del flusso in metodologia Scrum.",
+    tags: ["Java", "Spring", "SQL", "PostgreSQL", "Jira", "Scrum"],
   },
   {
-    role: "Junior Developer",
-    company: "Web Agency",
-    period: "2017 – 2019",
+    role: "Java Software Engineer — Assicura & Spring AI",
+    company: "IRISCUBE Reply",
+    period: "Marzo 2025 – Gennaio 2026",
     description:
-      "Realizzazione di siti web e applicazioni per clienti di diversi settori. Primo contatto con metodologie agili e sviluppo in team.",
-    tags: ["JavaScript", "PHP", "WordPress"],
+      "Sviluppo e supporto sul progetto Assicura (Java/Spring, MongoDB, PostgreSQL, Docker). In parallelo, agente conversazionale Spring AI che legge polizze in PDF e risponde in modo contestualizzato via RAG.",
+    tags: ["Java", "Spring", "Spring AI", "RAG", "MongoDB", "PostgreSQL", "Docker"],
+  },
+  {
+    role: "System Administrator",
+    company: "Internet Service Provider — Torino",
+    period: "Settembre 2018 – Settembre 2021",
+    description:
+      "Consolidamento e mantenimento dell'infrastruttura ICT (VMware, Hyper-V), servizi hosting e help desk su sistemi Windows/macOS, email, cloud, FTP, VirtualHost.",
+    tags: ["VMware", "Hyper-V", "Windows", "macOS", "Hosting", "Help desk"],
+  },
+  {
+    role: "Programmer",
+    company: "Freelance",
+    period: "Aprile 2017 – Settembre 2018",
+    description:
+      "Sviluppo end-to-end di applicazioni mobile in Xamarin/C# e applicazioni web in Angular e Node.js, sia frontend che backend.",
+    tags: ["Xamarin", "C#", "Angular", "Node.js"],
   },
 ];
 

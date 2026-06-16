@@ -13,30 +13,25 @@ type Project = {
   repoUrl?: string;
 };
 
-// TODO: sostituisci con i tuoi progetti reali.
 const projects: Project[] = [
   {
-    title: "Nome del progetto",
+    title: "Agente conversazionale Spring AI",
     description:
-      "Descrivi il problema che hai risolto e il risultato ottenuto. Es: piattaforma di prenotazioni che ha ridotto del 40% i tempi di gestione per il cliente.",
-    tags: ["React", "TypeScript", "Node.js"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/username/repo",
+      "Per IRISCUBE Reply: agente che legge polizze assicurative in PDF e risponde in modo contestualizzato via RAG. Pipeline completa di ingestion, embedding, retrieval e risposta in linguaggio naturale.",
+    tags: ["Spring AI", "RAG", "Java", "Spring", "PDF"],
   },
   {
-    title: "Secondo progetto",
+    title: "Backend Assicura",
     description:
-      "Concentrati su cosa hai costruito e perché conta: tecnologie chiave, sfide affrontate e impatto concreto del lavoro.",
-    tags: ["Next.js", "PostgreSQL", "Tailwind"],
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/username/repo",
+      "Sviluppo e supporto sul backend del progetto Assicura in Reply. Servizi Java/Spring in produzione su PostgreSQL e MongoDB, deploy in container Docker e flussi gestiti in Scrum.",
+    tags: ["Java", "Spring", "MongoDB", "PostgreSQL", "Docker"],
   },
   {
-    title: "Terzo progetto",
+    title: "Questo sito",
     description:
-      "Anche un side-project o un contributo open source vanno benissimo: mostra come scrivi codice e come pensi i problemi.",
-    tags: ["Python", "FastAPI", "Docker"],
-    repoUrl: "https://github.com/username/repo",
+      "La landing page che stai guardando. React 19, Vite 8 e Tailwind 4 con componenti shadcn/ui. Repo pubblico: chiunque può vedere com'è strutturata.",
+    tags: ["React 19", "TypeScript", "Vite", "Tailwind 4", "shadcn/ui"],
+    repoUrl: "https://github.com/matteomlc/basic-landing-page",
   },
 ];
 
@@ -50,8 +45,8 @@ export function Projects() {
           </h2>
           <Separator className="mx-auto mt-6 w-16" />
           <p className="mt-8 text-lg leading-relaxed text-muted-foreground">
-            Una selezione dei lavori di cui vado più fiero. Codice, demo e
-            risultati concreti.
+            Una selezione di lavori reali: due case study aziendali e questo
+            stesso sito. Niente demo da slide.
           </p>
         </div>
 

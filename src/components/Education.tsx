@@ -1,28 +1,31 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { GraduationCap } from "lucide-react";
+import { Award, GraduationCap, Mic } from "lucide-react";
 
 const educationItems = [
   {
-    degree: "Laurea Magistrale in Informatica",
-    institution: "Università degli Studi di Milano",
-    period: "2015 – 2017",
-    description:
-      "Specializzazione in Ingegneria del Software e Sistemi Distribuiti. Tesi sull'ottimizzazione di architetture microservizi.",
-  },
-  {
+    icon: GraduationCap,
     degree: "Laurea Triennale in Informatica",
-    institution: "Università degli Studi di Milano",
-    period: "2012 – 2015",
+    institution: "Università degli Studi di Torino",
+    period: "Conseguita",
     description:
-      "Solide basi in algoritmi, strutture dati, programmazione e reti. Progetto finale su applicazioni web real-time.",
+      "Algoritmi, ingegneria del software, basi di dati, sistemi operativi. Periodo di studio all'estero in Erasmus.",
   },
   {
-    degree: "Diploma di Maturità Scientifica",
-    institution: "Liceo Scientifico A. Volta",
-    period: "2007 – 2012",
+    icon: Award,
+    degree: "Prompt Design in Vertex AI",
+    institution: "Google — Skill Badge",
+    period: "Ottobre 2025",
     description:
-      "Formazione scientifica con approfondimento in matematica e fisica. Partecipazione a olimpiadi di informatica.",
+      "Certificazione Google sull'uso di Vertex AI: progettazione di prompt efficaci, integrazione con applicazioni reali e best practice per LLM in produzione.",
+  },
+  {
+    icon: Mic,
+    degree: "PS1 — Public Speaking",
+    institution: "Percorso formativo",
+    period: "2025",
+    description:
+      "Corso di public speaking: gestione del pubblico, struttura del messaggio, comunicazione efficace in contesti tecnici e divulgativi.",
   },
 ];
 
@@ -36,8 +39,8 @@ export function Education() {
           </h2>
           <Separator className="mx-auto mt-6 w-16" />
           <p className="mt-8 text-lg leading-relaxed text-muted-foreground">
-            Il percorso accademico che ha costruito le fondamenta delle mie
-            competenze.
+            Studi, certificazioni e percorsi formativi che continuano a
+            costruire le competenze su cui lavoro ogni giorno.
           </p>
         </div>
 
@@ -49,7 +52,7 @@ export function Education() {
             >
               <CardContent className="p-6 md:p-8">
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
-                  <GraduationCap className="h-6 w-6 text-primary" />
+                  <item.icon className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="mt-5 text-lg font-semibold">{item.degree}</h3>
                 <p className="mt-1 text-sm font-medium text-primary">

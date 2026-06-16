@@ -1,24 +1,24 @@
 import { Separator } from "@/components/ui/separator";
-import { Code, Palette, Users } from "lucide-react";
+import { Building2, Sparkles, Wrench } from "lucide-react";
 
 const skills = [
   {
-    icon: Code,
-    title: "Sviluppo",
+    icon: Wrench,
+    title: "Sul campo prima dell'aula",
     description:
-      "Creo applicazioni web moderne utilizzando le tecnologie più recenti e le best practice del settore.",
+      "Ho iniziato a scrivere codice e a fare sistemistica anni prima della laurea. Mi sono formato su problemi veri, non su esercizi.",
   },
   {
-    icon: Palette,
-    title: "Design",
+    icon: Building2,
+    title: "Codice che gira davvero",
     description:
-      "Progetto interfacce intuitive e accattivanti, con attenzione alla user experience e all'accessibilità.",
+      "Banking, assicurativo, ISP. Lavoro con software che ha utenti reali, vincoli reali e che non può andare giù.",
   },
   {
-    icon: Users,
-    title: "Collaborazione",
+    icon: Sparkles,
+    title: "AI applicata, non slide",
     description:
-      "Lavoro efficacemente in team, con ottime capacità comunicative e orientamento al risultato.",
+      "Spring AI, RAG, agenti conversazionali e plugin con LLM. Quando lavoro con l'IA è per metterla in produzione, non per fare demo.",
   },
 ];
 
@@ -32,11 +32,13 @@ export function About() {
           </h2>
           <Separator className="mx-auto mt-6 w-16" />
           <p className="mt-8 text-lg leading-relaxed text-muted-foreground">
-            Sono un professionista appassionato di tecnologia e innovazione. Mi
-            dedico alla creazione di soluzioni digitali che combinano estetica e
-            funzionalità. Con anni di esperienza nel settore, ho sviluppato
-            competenze trasversali che mi permettono di affrontare ogni progetto
-            con creatività e rigore tecnico.
+            Sono Matteo Mullace, software engineer con base a Torino. Ho
+            iniziato come sviluppatore mobile e web freelance, poi sono passato
+            per la sistemistica e oggi costruisco backend Java/Spring e agenti
+            AI in ambiente bancario. Laurea in Informatica all'Università degli
+            Studi di Torino, periodo Erasmus, e una buona dose di lavoro reale
+            prima del titolo. Adesso il mio focus è portare LLM e RAG in
+            produzione, dove servono davvero.
           </p>
         </div>
 
